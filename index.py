@@ -15,8 +15,7 @@ import pandas as pd
 
 import plotly.express as px
 
-from google.colab import files
-uploaded = files.upload()
+
 
 df = pd.read_csv("stockdata.csv")
 

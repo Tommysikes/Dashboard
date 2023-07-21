@@ -1,4 +1,3 @@
-numpy==1.21.0 --use-deprecated=legacy-resolver
 dash
 pandas==1.3.3 
 plotly

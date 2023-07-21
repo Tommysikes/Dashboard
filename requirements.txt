@@ -1,6 +1,7 @@
+upgrade setuptools
 dash
 pandas==1.3.3 
 plotly
 google-colab  
-setuptools
+
 

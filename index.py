@@ -55,8 +55,6 @@ def update_graph(company):
     volume_fig = px.line(company_df, x='Date', y='Volume')
 
     return open_fig, high_fig, low_fig, close_fig, volume_fig
-#server = app.server
+server = app.server
 
-if __name__ == '__main__':
-    server=app.server
 

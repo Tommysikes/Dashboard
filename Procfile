@@ -1,3 +1,4 @@
 export PIP_USE_PEP517=true
 pip install -r requirements.txt
-web: python index.py
+web: gunicorn index:server
+

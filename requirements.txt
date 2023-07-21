@@ -2,3 +2,4 @@ dash
 pandas
 plotly
 google-colab  
+--upgrade setuptools
